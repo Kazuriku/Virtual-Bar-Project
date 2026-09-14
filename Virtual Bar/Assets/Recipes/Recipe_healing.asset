@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d811c96d441ff8c45bb17c8e28fe509e, type: 3}
+  m_Name: Recipe_healing
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
+  recipeId: healing
+  cocktailNameKo: "\uD790\uB9C1"
+  cocktailNameEn: Healing
+  requiredGlass: 1
+  requiredMethod: 0
+  requiredGarnish: Twist of Lemon Peel
+  isSequenceImportant: 0
+  requiredIngredients:
+  - ingredientId: gam_hong_ro
+    amountOz: 1.5
+    allowableError: 0.15
+  - ingredientId: benedictine_dom
+    amountOz: 0.33
+    allowableError: 0.1
+  - ingredientId: creme_de_cassis
+    amountOz: 0.33
+    allowableError: 0.1
+  - ingredientId: sweet_sour_mix
+    amountOz: 1
+    allowableError: 0.1
+  preparationSteps:
+  - "1. \uCE75\uD14C\uC77C \uAE00\uB77C\uC2A4\uC5D0 \uC5BC\uC74C\uC744 \uB123\uC5B4
+    \uCE60\uB9C1\uD55C\uB2E4."
+  - "2. \uC170\uC774\uCEE4\uC5D0 \uC5BC\uC74C, \uAC10\uD64D\uB85C 1 1/2oz, \uBCA0\uB124\uB515\uD2F4
+    DOM 1/3oz, \uD06C\uB818 \uB4DC \uCE74\uC2DC\uC2A4 1/3oz, \uC2A4\uC704\uD2B8 \uC564
+    \uC0AC\uC6CC \uBBF9\uC2A4 1oz\uB97C \uB123\uB294\uB2E4."
+  - "3. 8~10\uD68C \uC170\uC774\uD0B9\uD55C\uB2E4."
+  - "4. \uCE60\uB9C1\uD55C \uC794\uC758 \uC5BC\uC74C\uC744 \uBC84\uB9AC\uACE0 \uB530\uB978\uB2E4."
+  - "5. \uB808\uBAAC \uAECD\uC9C8\uC744 \uD2B8\uC704\uC2A4\uD2B8\uD558\uC5EC \uC794\uC5D0
+    \uB123\uB294\uB2E4."
+  baseDonationPrice: 1600
