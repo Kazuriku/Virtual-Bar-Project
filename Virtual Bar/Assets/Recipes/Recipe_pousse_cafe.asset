@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d811c96d441ff8c45bb17c8e28fe509e, type: 3}
+  m_Name: Recipe_pousse_cafe
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
+  recipeId: pousse_cafe
+  cocktailNameKo: "\uD478\uC2A4\uCE74\uD398"
+  cocktailNameEn: Pousse Cafe
+  requiredGlass: 0
+  requiredMethod: 3
+  requiredGarnish: None
+  isSequenceImportant: 1
+  requiredIngredients:
+  - ingredientId: grenadine_syrup
+    amountOz: 0.33
+    allowableError: 0.1
+  - ingredientId: creme_de_menthe_green
+    amountOz: 0.33
+    allowableError: 0.1
+  - ingredientId: brandy
+    amountOz: 0.33
+    allowableError: 0.1
+  preparationSteps:
+  - "1. \uC2A4\uD15C \uB9AC\uD050\uC5B4 \uAE00\uB77C\uC2A4\uB97C \uC900\uBE44\uD55C\uB2E4."
+  - "2. \uADF8\uB808\uB098\uB518 \uC2DC\uB7FD 1/3 \uD30C\uD2B8(\uC57D 1/4oz)\uB97C
+    \uACC4\uB7C9\uD574 \uC794 \uBC14\uB2E5\uC5D0 \uB530\uB978\uB2E4."
+  - "3. \uC0AC\uC6A9\uD55C \uC9C0\uAC70\uC640 \uBC14\uC2A4\uD47C\uC744 \uBB3C\uB85C
+    \uC53B\uACE0 \uB2E6\uB294\uB2E4."
+  - "4. \uD06C\uB818 \uB4DC \uBA58\uD2B8 \uADF8\uB9B0 1/3 \uD30C\uD2B8(\uC57D 1/4oz)\uB97C
+    \uBC14\uC2A4\uD47C\uC73C\uB85C \uCC9C\uCC9C\uD788 \uD50C\uB85C\uD305\uD55C\uB2E4."
+  - "5. \uC9C0\uAC70\uC640 \uBC14\uC2A4\uD47C\uC744 \uB2E4\uC2DC \uC53B\uACE0 \uB2E6\uB294\uB2E4."
+  - "6. \uBE0C\uB79C\uB514 1/3 \uD30C\uD2B8(\uC57D 1/3oz)\uB97C \uB9E8 \uC704\uC5D0
+    \uBC14\uC2A4\uD47C\uC73C\uB85C \uD50C\uB85C\uD305\uD55C\uB2E4."
+  baseDonationPrice: 2000

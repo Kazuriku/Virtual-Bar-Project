@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d811c96d441ff8c45bb17c8e28fe509e, type: 3}
+  m_Name: Recipe_b_52
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
+  recipeId: b_52
+  cocktailNameKo: B-52
+  cocktailNameEn: B-52
+  requiredGlass: 5
+  requiredMethod: 3
+  requiredGarnish: None
+  isSequenceImportant: 1
+  requiredIngredients:
+  - ingredientId: kahlua
+    amountOz: 0.33
+    allowableError: 0.1
+  - ingredientId: baileys_irish_cream
+    amountOz: 0.5
+    allowableError: 0.1
+  - ingredientId: grand_marnier
+    amountOz: 0.75
+    allowableError: 0.1
+  preparationSteps:
+  - "1. \uC170\uB9AC \uAE00\uB77C\uC2A4\uB97C \uC900\uBE44\uD55C\uB2E4."
+  - "2. \uAE54\uB8E8\uC544 1/3 \uD30C\uD2B8(\uC57D 1/3oz)\uB97C \uC794 \uBC14\uB2E5\uC5D0
+    \uB530\uB978\uB2E4."
+  - "3. \uC9C0\uAC70\uC640 \uBC14\uC2A4\uD47C\uC744 \uC53B\uACE0 \uB2E6\uC740 \uD6C4,
+    \uBCA0\uC77C\uB9AC\uC2A4 \uC544\uC774\uB9AC\uC2DC \uD06C\uB9BC 1/3 \uD30C\uD2B8(\uC57D
+    1/2oz)\uB97C \uD50C\uB85C\uD305\uD55C\uB2E4."
+  - "4. \uC9C0\uAC70\uC640 \uBC14\uC2A4\uD47C\uC744 \uB2E4\uC2DC \uC53B\uACE0 \uB2E6\uC740
+    \uD6C4, \uADF8\uB791 \uB9C8\uB2C8\uC5D0 1/3 \uD30C\uD2B8(\uC57D 3/4oz)\uB97C
+    \uD50C\uB85C\uD305\uD55C\uB2E4."
+  baseDonationPrice: 2000

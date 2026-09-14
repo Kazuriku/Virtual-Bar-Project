@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d811c96d441ff8c45bb17c8e28fe509e, type: 3}
+  m_Name: Recipe_kir
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
+  recipeId: kir
+  cocktailNameKo: "\uD0A4\uB974"
+  cocktailNameEn: Kir
+  requiredGlass: 9
+  requiredMethod: 2
+  requiredGarnish: Twist of Lemon Peel
+  isSequenceImportant: 0
+  requiredIngredients:
+  - ingredientId: white_wine
+    amountOz: 3
+    allowableError: 0.3
+  - ingredientId: creme_de_cassis
+    amountOz: 0.5
+    allowableError: 0.1
+  preparationSteps:
+  - "1. \uD654\uC774\uD2B8 \uC640\uC778 \uAE00\uB77C\uC2A4\uB97C \uC900\uBE44\uD55C\uB2E4
+    (\uC5BC\uC74C \uCE60\uB9C1 \uD558\uC9C0 \uC54A\uC74C)."
+  - "2. \uD654\uC774\uD2B8 \uC640\uC778 3oz, \uD06C\uB818 \uB4DC \uCE74\uC2DC\uC2A4
+    1/2oz\uB97C \uC9C1\uC811 \uBD93\uB294\uB2E4."
+  - "3. \uBC14\uC2A4\uD47C\uC73C\uB85C \uC0B4\uC9DD \uC800\uC5B4\uC900\uB2E4."
+  - "4. \uB808\uBAAC \uAECD\uC9C8\uC744 \uD2B8\uC704\uC2A4\uD2B8\uD558\uC5EC \uC794\uC5D0
+    \uB123\uB294\uB2E4."
+  baseDonationPrice: 1200
